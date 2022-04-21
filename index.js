@@ -1,6 +1,6 @@
 const express = require('express');
 const hall = require('./routes/hall')
-const room = require('./routes/rooms')
+// const room = require('./routes/rooms')
 const dotenv = require('dotenv');
 const mongo = require('./shared/connect')
 const app = express();
