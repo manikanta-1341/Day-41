@@ -9,7 +9,7 @@ module.exports ={
             console.log(this.db)
         }
         catch(err){
-            res.send(err)
+            console.log(err)
         }
     }
 }
