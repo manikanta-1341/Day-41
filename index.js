@@ -12,6 +12,6 @@ app.use("/",(req,res, next)=>{
     next();
 })
 
-app.use('/hall',hall)
+app.use('/',hall)
 
 app.listen(process.env.port)
